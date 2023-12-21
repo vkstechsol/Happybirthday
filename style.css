@@ -84,4 +84,18 @@ img {
     transform: rotate(360deg);
   }
 } 
+button[type="button"] {
+  margin-top: 10px;
+  background-color: #f537a2;
+  color: #fff;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
 
+button[type="button"]:hover {
+  background-color: #128e09;
+}
