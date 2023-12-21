@@ -12,7 +12,7 @@ const words = [
   
     // Read out the current word
     const utterance = new SpeechSynthesisUtterance(currentWord);
-    utterance.lang = 'hi-IN'; // Set the language to Hindi
+    utterance.lang = 'en-US'; // Set the language to Hindi
     speechSynthesis.speak(utterance);
   
     index = (index + 1) % words.length;
