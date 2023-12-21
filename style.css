@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 50px;
+    margin: 10px;
   }
   
   .word-container {
@@ -9,7 +9,7 @@ body {
   }
   
   #word {
-    color: rgb(17, 41, 252);
+    color: rgb(64, 155, 22);
   }
   
   body {
@@ -18,8 +18,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
+    height: 120vh;
+    margin: 10;
 }
 
 .card {
@@ -27,15 +27,21 @@ body {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(219, 215, 215, 0.1);
 }
 
 h1 {
-    color: #333;
+    color: #302e2e;
 }
 
 p {
-    color: #555;
+    color: #302e2e;
+}
+p1 {
+  color: #302e2e;
+}
+.A1{
+  color: rgb(249, 161, 241);
 }
 
 img {
@@ -84,15 +90,17 @@ img {
     transform: rotate(360deg);
   }
 } 
+
 button[type="button"] {
   margin-top: 10px;
+  margin-bottom: 10px;
   background-color: #f537a2;
-  color: #fff;
-  padding: 4px 10px;
+  /* color: #fff; */
+  padding: 15px 15px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 30px;
   transition: background-color 0.3s;
 }
 
